@@ -28,7 +28,7 @@ This project was developed with the following technology:
 
 ## 💻 Project
 
-This is the new and improved landing page for OtherCatt's portfolio, originally created for a tutorial on The Odin Project e Matheus Battisti!
+This is the new and improved landing page for Thaissa Barbosa portfolio, originally created for a tutorial on The Odin Project e Matheus Battisti!
 
 Web project: https://barbosathaissa.github.io/Landing-Page/
 
