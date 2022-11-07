@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <p id="logo"> Header Logo</p>
+      <ul class="nav-links">
+        <li class="li">
+          <a href="#portifolio-section">Portifolio</a>
+        </li>
+        <li class="li">
+          <a href="#sobre-section">About</a>
+        </li>
+        <li class="li">
+          <a href="#contact-section">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- projeto pr1 -->
+
+    <header id="event-subscription">
+      <div id="disclaimer">
+        <h2>InDecor</h2>
+        <p class="about-event">
+          Um evento para revolucionar a sua criatividade
+        </p>
+        <p>Data do evento:</p>
+        <p class="event-date">Domingo, 28 de Maio, a partir das 14h</p>
+      </div>
+      <div id="subscription-form">
+        <p>Preencha o formulário para receber os detalhes do evento</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu melhor e-mail" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" placeholder="Número de Whatsapp" />
+          </div>
+          <div class="form-group">
+            <label for="interest">Principal interesse</label>
+            <select name="interest">
+              <option value="" disabled selected>Selecione</option>
+              <option value="apartment">Apartamentos</option>
+              <option value="house">Casas</option>
+              <option value="garden">Jardins</option>
+              <option value="other">Outro</option>
+            </select>
+          </div>
+          <input type="submit" class="btn" value="Quero me inscrever" />
+        </form>
+      </div>
+    </header>
+    <section id="key-benefits">
+      <h2 class="h2">O que você vai aprender:</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+            Something really cool, that will make a difference in the
+            participant's life.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            Something really cool, that will make a difference in the
+            participant's life.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            Something really cool, that will make a difference in the
+            participant's life.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="location">
+      <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div id="address-details">
+          <p>Rua do evento, 1333</p>
+          <p>Bairro</p>
+          <p>Abertura: 14h</p>
+        </div>
+      </div>
+      <div id="about-location">
+        <h3>Local de destaque</h3>
+        <p>
+          The event will be held in a prestigious place for lovers of Interior
+          Design, where we will have examples of various environments, both
+          internal as well as external.
+        </p>
+      </div>
+    </section>
+    <section id="details">
+      <div class="detail" id="detail-1">
+        <img src="img/hrz-3.jpg" alt="" />
+        <div class="detail-description">
+          <h3>Discover the environments you will learn to decorate</h3>
+        </div>
+      </div>
+      <div class="detail" id="detail-2">
+        <div class="detail-description">
+          <h3>Detalhes</h3>
+          <ul>
+            <li>Positioning</li>
+            <li>Using space</li>
+            <li>Color Match</li>
+            <li>Organization</li>
+            <li>And much more...</li>
+          </ul>
+        </div>
+        <img
+          src="https://media.istockphoto.com/id/1388092850/pt/foto/mock-up-poster-frame-in-modern-interior-background-with-sofa-and-accessories-in-the-room.jpg?s=1024x1024&w=is&k=20&c=L_Je5rkVqIFP45HtuIscYstu6RVzet_X3I3y0Lt7C3I="
+          alt=""
+        />
+      </div>
+      <div class="detail" id="detail-3">
+        <img
+          src="https://media.istockphoto.com/id/942917370/pt/foto/sofa-in-living-room-interior.jpg?s=1024x1024&w=is&k=20&c=pI0NaxD_wmQHVaQzg52P5PLFIzojcPlNeAOU4iltz2o="
+          alt=""
+        />
+        <div class="detail-description">
+          <h3>Objetos</h3>
+          <ul>
+            <li>Chair</li>
+            <li>Tables</li>
+            <li>Mirrors</li>
+            <li>Plants</li>
+            <li>Curtains</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Liked? Then sign up:</h3>
+      <button class="btn">Request Registration</button>
+    </section>
+
+    <!-- portifolio -->
+
+    <div id="portifolio-section" class="potifolio">
+      <h1 class="title">
+        <font style="vertical-align: inherit">
+          <font style="vertical-align: inherit">See other projects </font>
+        </font>
+        <font style="vertical-align: inherit">
+          <font style="vertical-align: inherit"> by Thaissa Barbosa </font>
+        </font>
+      </h1>
+
+      <div class="port-cont">
+        <div class="port-titulo">
+          <a href="https://barbosathaissa.github.io/NLW-Copa/" target="_blank">
+            <img class="icon" src=".github/desktop.jpg.jpg" alt="Nlw-copa" />
+          </a>
+          <h2>Cup 2022</h2>
+        </div>
+        <div class="port-titulo">
+          <a
+            href=" https://barbosathaissa.github.io/Calculator-JS/"
+            target="_blank"
+          >
+            <img class="icon" src=".github/calcu.png.png" alt="Cauculadora" />
+          </a>
+          <h2>Calculator</h2>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <!-- informações de contato -->
+
+   
+
+    <div id="contact-section" class="con-inf">
+    
+        <h2 class="titulo">You can find me other places around the web</h2>
+
+      <div class="info-row">
+        <img
+          class="icon"
+          src="	http://www.othercatt.com/images/github-icon.png"
+          alt="icon github"
+        />
+        <p class="dire">Github:<a href="github" target="_blank">Thaíssa Barbosa</a></p>
+      </div>
+      <div class="info-row">
+        <img
+          class="icon"
+          src="	http://www.othercatt.com/images/gmail-icon.png"
+          alt="icon gmail"
+        />
+        <p class="dire">Gmail:<a href="mariathatha03@gamil.com">Thaíssa Barbosa</a></p>
+      </div>
+    </div>
+
+    
+
+    <footer id="footer">Copyright The Odin projects 2022</footer>
+  </body>
+</html>
